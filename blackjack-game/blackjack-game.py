@@ -21,7 +21,7 @@ def deal_card():
 
 
 def check_card(card):
-    """ check how has the blackjack and replace 11 by 1 if the sum of card greater than 21"""
+    """ check who has the blackjack and replace 11 by 1 if the sum of card greater than 21"""
     if 11 in card and len(card) <= 2 and sum(card)<=21:
         return 0
     
