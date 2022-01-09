@@ -7,6 +7,7 @@ EASY_LEVEL = 10
 
 
 def check_number(number, correct_number,turns):
+    """check the guess number and return the turns remaining"""
     if number > correct_number:
         print("Too high")
         return turns - 1
